@@ -52,7 +52,7 @@ public class OwmAPICase {
 			// Print city name and country code
 			System.out.println("City: " + currWeather.getCityName() + ", " + currWeather.getSystemData().getCountryCode());
 			// Print temperature and a description of the weather
-			System.out.println("Temperature: " + currWeather.getMainData().getTemp() + "°C \n" +
+			System.out.println("Temperature: " + currWeather.getMainData().getTemp() + " C \n" +
 							   "Description: " + currWeather.getWeatherList().get(0).getMainInfo() + ", " + currWeather.getWeatherList().get(0).getDescription());
 		}
 	}
